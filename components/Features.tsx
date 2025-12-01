@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import PhoneMockup from "./PhoneMockup";
 import ImageSnippet from "./ImageSnippet";
 
 const features = [
@@ -70,10 +69,11 @@ export default function Features() {
                   </p>
                 </div>
                 <div className={`flex justify-center ${index % 2 === 0 ? "order-2" : "order-1"}`}>
-                  <PhoneMockup
-                    imageSrc={feature.imageSrc}
-                    imageAlt={feature.imageAlt}
+                  <ImageSnippet
+                    src={feature.imageSrc}
+                    alt={feature.imageAlt}
                     className="w-48 lg:w-64"
+                    rotation={index % 2 === 0 ? 3 : -3}
                   />
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Features() {
           ))}
         </div>
 
-        {/* Chat & Un-Melt Snippets Section */}
+        {/* Chat & Un-Melt Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -102,7 +102,6 @@ export default function Features() {
                 alt="Metal App - Chat Conversation"
                 className="w-full max-w-xs"
                 rotation={2}
-                floating={true}
               />
             </div>
           </div>
@@ -120,8 +119,6 @@ export default function Features() {
                 alt="Metal App - Un-Melt Feature"
                 className="w-full max-w-xs"
                 rotation={-3}
-                floating={true}
-                delay={0.3}
               />
             </div>
           </div>

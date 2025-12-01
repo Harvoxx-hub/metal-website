@@ -48,8 +48,6 @@ export default function FooterCTA() {
                 src="/images/screenshots/chat-metal.png"
                 alt="Metal App - Chat"
                 rotation={8}
-                delay={0}
-                floating={true}
               />
             </div>
 
@@ -59,8 +57,6 @@ export default function FooterCTA() {
                 src="/images/screenshots/its-a-melt.png"
                 alt="Metal App - Un-Melt"
                 rotation={-6}
-                delay={0.3}
-                floating={true}
               />
             </div>
           </motion.div>
