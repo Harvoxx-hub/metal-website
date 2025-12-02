@@ -43,12 +43,18 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <Link 
               href="#why-metal" 
               className="text-gray-300 hover:text-white transition-colors text-sm lg:text-base font-medium"
             >
               Why Metal
+            </Link>
+            <Link 
+              href="/meetup" 
+              className="text-gray-300 hover:text-white transition-colors text-sm lg:text-base font-medium"
+            >
+              Meetup
             </Link>
             <Link 
               href="#testimonials" 
@@ -57,7 +63,7 @@ export default function Header() {
               Testimonials
             </Link>
             <Link 
-              href="#contact" 
+              href="/contact" 
               className="text-gray-300 hover:text-white transition-colors text-sm lg:text-base font-medium"
             >
               Contact Us
@@ -94,6 +100,13 @@ export default function Header() {
               Why Metal
             </Link>
             <Link
+              href="/meetup"
+              className="block text-gray-300 hover:text-white transition-colors text-base font-medium py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Meetup
+            </Link>
+            <Link
               href="#testimonials"
               className="block text-gray-300 hover:text-white transition-colors text-base font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
@@ -101,7 +114,7 @@ export default function Header() {
               Testimonials
             </Link>
             <Link
-              href="#contact"
+              href="/contact"
               className="block text-gray-300 hover:text-white transition-colors text-base font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >

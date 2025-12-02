@@ -45,7 +45,7 @@ export default function Home() {
     "featureList": [
       "Anonymous Communities",
       "Swipe Through Profiles",
-      "Share Your Thoughts",
+      "Choose Your Connection Type",
       "Earn & Send Sparks",
       "Blind Connections",
       "Un-Melt When Ready"

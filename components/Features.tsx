@@ -17,10 +17,10 @@ const features = [
     imageAlt: "Metal App - Swipe Feature",
   },
   {
-    title: "Share Your Thoughts",
-    description: "Express yourself through thoughts. Read what others are thinking, and connect with people whose ideas resonate with you.",
-    imageSrc: "/images/screenshots/metal-tought-page.png",
-    imageAlt: "Metal App - Thoughts Feature",
+    title: "Choose Your Connection Type",
+    description: "Select what you're looking for - friendship, dating, mentorship, travel buddy, business connections, or other relationship types. Metal supports all kinds of meaningful connections, not just romance.",
+    imageSrc: "/images/screenshots/metal-connection-option-page.png",
+    imageAlt: "Metal App - Connection Options Feature",
   },
   {
     title: "Earn & Send Sparks",
