@@ -34,13 +34,13 @@ export default function FooterCTA() {
             </div>
           </motion.div>
 
-          {/* Right: Snippet Images */}
+          {/* Right: Snippet Images - Hidden on mobile */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative h-[500px] lg:h-[600px] flex items-center justify-center"
+            className="hidden lg:block relative h-[500px] lg:h-[600px] flex items-center justify-center"
           >
             {/* Chat Snippet - Top */}
             <div className="absolute top-10 right-10 z-20 w-56 sm:w-64 lg:w-72">

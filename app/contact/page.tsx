@@ -40,10 +40,10 @@ export default function ContactPage() {
             Have a question or need support? We're here to help. Reach out to us and we'll get back to you as soon as possible.
           </p>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact Form */}
-            <div className="bg-dark-tertiary rounded-2xl p-6 lg:p-8 border border-dark-border">
-              <h2 className="text-2xl font-bold text-white mb-6">Send us a message</h2>
+            <div className="bg-dark-tertiary rounded-2xl p-5 sm:p-6 lg:p-8 border border-dark-border">
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Send us a message</h2>
               
               {submitted ? (
                 <div className="bg-primary/20 border border-primary rounded-lg p-6 text-center">
@@ -126,8 +126,8 @@ export default function ContactPage() {
 
             {/* Contact Information */}
             <div className="space-y-6">
-              <div className="bg-dark-tertiary rounded-2xl p-6 lg:p-8 border border-dark-border">
-                <h2 className="text-2xl font-bold text-white mb-6">Get in touch</h2>
+              <div className="bg-dark-tertiary rounded-2xl p-5 sm:p-6 lg:p-8 border border-dark-border">
+                <h2 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Get in touch</h2>
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
@@ -149,7 +149,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-white font-semibold mb-1">Phone</h3>
                       <a href="tel:+12267913817" className="text-primary hover:text-primary-light transition-colors">
-                        +1 (226) 791-3817
+                      +1 (289) 627-8486
                       </a>
                     </div>
                   </div>
@@ -161,20 +161,12 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-white font-semibold mb-1">Address</h3>
                       <p className="text-gray-300">
-                        257 Cathcart Cres<br />
-                        Milton, ON L9T 7P2<br />
-                        Canada
+                        
+                      Toronto, Ontario, Canada <br />
                       </p>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="bg-dark-tertiary rounded-2xl p-6 lg:p-8 border border-dark-border">
-                <h3 className="text-xl font-bold text-white mb-4">Response Time</h3>
-                <p className="text-gray-300">
-                  We typically respond within 24-48 hours. For urgent matters, please call us directly.
-                </p>
               </div>
             </div>
           </div>

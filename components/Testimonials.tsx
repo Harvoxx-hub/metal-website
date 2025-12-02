@@ -51,7 +51,7 @@ export default function Testimonials() {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
@@ -59,9 +59,9 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="bg-dark-tertiary rounded-2xl p-6 border border-dark-border hover:border-primary/50 transition-all duration-300"
+              className="bg-dark-tertiary rounded-2xl p-5 sm:p-6 border border-dark-border hover:border-primary/50 transition-all duration-300"
             >
-              <p className="text-white mb-6 leading-relaxed">
+              <p className="text-white mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
                 "{testimonial.quote}"
               </p>
               <div className="flex items-center">

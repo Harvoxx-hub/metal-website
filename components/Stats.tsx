@@ -43,12 +43,12 @@ function StatCard({ number, suffix = "", label, delay }: StatCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay }}
-      className="bg-dark-tertiary rounded-2xl p-8 border border-dark-border hover:border-primary/50 transition-all duration-300"
+      className="bg-dark-tertiary rounded-2xl p-6 sm:p-8 border border-dark-border hover:border-primary/50 transition-all duration-300"
     >
-      <div className="text-5xl lg:text-6xl font-bold mb-4 metallic-text">
+      <div className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-4 metallic-text">
         {count.toLocaleString()}{suffix}
       </div>
-      <div className="text-gray-400 text-lg">{label}</div>
+      <div className="text-gray-400 text-sm sm:text-base lg:text-lg">{label}</div>
     </motion.div>
   );
 }

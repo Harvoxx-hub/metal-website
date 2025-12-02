@@ -74,9 +74,9 @@ export default function FAQ() {
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-dark-secondary transition-colors"
+                className="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex items-center justify-between hover:bg-dark-secondary transition-colors"
               >
-                <span className="text-white font-semibold text-lg">{faq.question}</span>
+                <span className="text-white font-semibold text-base sm:text-lg pr-4">{faq.question}</span>
                 <HiChevronDown
                   className={`w-5 h-5 text-gray-400 transition-transform ${
                     openIndex === index ? "rotate-180" : ""
@@ -92,7 +92,7 @@ export default function FAQ() {
                     transition={{ duration: 0.3 }}
                     className="overflow-hidden"
                   >
-                    <div className="px-6 pb-4 text-gray-300 leading-relaxed">
+                    <div className="px-4 sm:px-6 pb-3 sm:pb-4 text-gray-300 text-sm sm:text-base leading-relaxed">
                       {faq.answer}
                     </div>
                   </motion.div>

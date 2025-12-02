@@ -25,7 +25,7 @@ export default function ImageSnippet({
           width={400}
           height={600}
           className="w-full h-auto object-cover"
-          sizes="(max-width: 768px) 200px, (max-width: 1200px) 300px, 400px"
+          sizes="(max-width: 640px) 160px, (max-width: 768px) 200px, (max-width: 1200px) 300px, 400px"
         />
       </div>
     </div>

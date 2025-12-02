@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="bg-dark-secondary border-t border-dark-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-8">
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center space-x-3 mb-4 hover:opacity-80 transition-opacity">

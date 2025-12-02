@@ -25,9 +25,9 @@ export default function Comparison() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-dark-tertiary rounded-2xl p-8 lg:p-10 border border-dark-border"
+            className="bg-dark-tertiary rounded-2xl p-6 sm:p-8 lg:p-10 border border-dark-border"
           >
-            <h3 className="text-2xl lg:text-3xl font-bold text-white mb-6">
+            <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-4 sm:mb-6">
               100s of matches. 0 real connections.
             </h3>
             <div className="flex items-center space-x-4 mb-6">
@@ -53,7 +53,7 @@ export default function Comparison() {
                 </div>
               </div>
             </div>
-            <p className="text-gray-400 text-lg">
+            <p className="text-gray-400 text-base sm:text-lg">
               Endless swiping, ghosting, and wasted time.
             </p>
           </motion.div>
@@ -64,7 +64,7 @@ export default function Comparison() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-dark-tertiary rounded-2xl p-8 lg:p-10 border-2 border-primary relative overflow-hidden"
+            className="bg-dark-tertiary rounded-2xl p-6 sm:p-8 lg:p-10 border-2 border-primary relative overflow-hidden"
           >
             {/* Glow effect */}
             <div className="absolute inset-0 bg-primary/5 blur-xl" />
@@ -78,10 +78,10 @@ export default function Comparison() {
                   <span className="text-primary font-semibold">1 meaningful connection</span>
                 </div>
               </div>
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-6">
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-4 sm:mb-6">
                 Every Connection = Real Connection.
               </h3>
-              <p className="text-gray-300 text-lg">
+              <p className="text-gray-300 text-base sm:text-lg">
                 Connect. Chat. Un-melt. Build relationships based on who you are — not how you look.
               </p>
             </div>

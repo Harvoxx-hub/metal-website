@@ -28,7 +28,7 @@ export default function CookiesPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">What Are Cookies?</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">What Are Cookies?</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 Cookies are small text files that are sent to or accessed from your web browser or your device's memory. A cookie typically contains the name of the domain (Internet location) from which the cookie originated, the "lifetime" of the cookie (i.e., when it expires), and a randomly generated unique number or similar identifier. A cookie may also contain information about your device, such as user settings, browsing history, and activities conducted while using our services.
               </p>
@@ -38,7 +38,7 @@ export default function CookiesPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Types of Cookies We Use</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Types of Cookies We Use</h2>
               <p className="text-gray-300 leading-relaxed mb-6">
                 We use the following types of cookies to improve your experience and the functionality of our Services:
               </p>
@@ -82,7 +82,7 @@ export default function CookiesPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">How We Use Cookies</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">How We Use Cookies</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 We use cookies to:
               </p>
@@ -96,7 +96,7 @@ export default function CookiesPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Managing Cookies</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Managing Cookies</h2>
               
               <div className="space-y-4">
                 <div>
@@ -131,7 +131,7 @@ export default function CookiesPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Google™ Cookies</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Google™ Cookies</h2>
               
               <div className="space-y-4">
                 <div>
@@ -151,14 +151,14 @@ export default function CookiesPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Changes to This Cookies Policy</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Changes to This Cookies Policy</h2>
               <p className="text-gray-300 leading-relaxed">
                 We may update this Cookies Policy periodically to reflect changes in how we use cookies or for legal and regulatory reasons. Updates will be posted on this page, and the "Effective Date" will be revised accordingly. We encourage you to review this policy regularly.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Contact Us</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Contact Us</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 If you have any questions or concerns about this Cookies Policy, please contact us at:
               </p>

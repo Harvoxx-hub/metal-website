@@ -38,18 +38,18 @@ export default function FeatureSection() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold">
               Where authentic <span className="metallic-text">connections</span> begin.
             </h2>
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
               At Metal, we believe that meaningful relationships aren't built on looks — they grow from real conversations, mutual respect, and shared values. Join anonymous communities, play interactive games, share thoughts, and earn sparks as you build connections. We give you control, privacy, and a safe space to be yourself — no pressure, no judgments.
             </p>
-            <div className="bg-dark-tertiary border-l-4 border-primary rounded-lg p-6">
-              <p className="text-white text-lg italic">
+            <div className="bg-dark-tertiary border-l-4 border-primary rounded-lg p-4 sm:p-6">
+              <p className="text-white text-base sm:text-lg italic">
                 "We make meeting someone based on who they are, not what they look like."
               </p>
             </div>
-            <button className="bg-primary-gradient text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-primary-glow transition-all duration-300 hover:scale-105">
+            <button className="bg-primary-gradient text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg hover:shadow-primary-glow transition-all duration-300 hover:scale-105 w-full sm:w-auto">
               Learn More
             </button>
           </motion.div>

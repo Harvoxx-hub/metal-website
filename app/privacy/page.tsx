@@ -20,10 +20,10 @@ export default function PrivacyPage() {
             Last updated: August 1st, 2025
           </p>
 
-          <div className="bg-dark-tertiary rounded-2xl p-6 lg:p-8 border border-dark-border space-y-8">
+          <div className="bg-dark-tertiary rounded-2xl p-5 sm:p-6 lg:p-8 border border-dark-border space-y-6 sm:space-y-8">
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Welcome to METAL BLIND CONNECT App</h2>
-              <p className="text-gray-300 leading-relaxed">
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Welcome to METAL BLIND CONNECT App</h2>
+              <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                 This Privacy Policy takes effect from Friday, August 1st, 2025 (hereinafter referred to as the effective date).
               </p>
               <p className="text-gray-300 leading-relaxed mt-4">
@@ -44,7 +44,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Information/Data We Collect</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Information/Data We Collect</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 In order to effectively provide our services to you, we may collect the following data:
               </p>
@@ -52,42 +52,42 @@ export default function PrivacyPage() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-3">Personal Identification Information/Data:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     Name, address, email address, phone number, date of birth, gender, sexual orientation, and other similar information/data.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-3">User Profile Information/Data:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     Content/data you generate in the course of using our services, including profile photos, videos, likes, biographical information, and opinions you choose to share.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-3">Usage and Device Information/Data:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     Information/data about how you use our services, such as IP address, device IMEI, device model and type, browser type, operating system, access times, and pages viewed/accessed.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-3">Location Information/Data:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     Live and previous locations if you have enabled location services on your device while accessing our services.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-3">Sensitive Data:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     Data related to sexual orientation, preferences, and any other special category information voluntarily provided during registration or through usage of the app.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-3">Behavioral Data:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     Records of user-reported interactions or flagged activities, such as abusive or fraudulent behavior, for safety monitoring purposes.
                   </p>
                 </div>
@@ -95,7 +95,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">How We Use Your Information/Data</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">How We Use Your Information/Data</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 We may use the information/data you supply to us during registration and in the course of using our services for the following purposes:
               </p>
@@ -136,14 +136,14 @@ export default function PrivacyPage() {
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Advertisements:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     To analyze preferences and show advertisements tailored to your interests, either by ourselves or through our partners.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Compliance and Security:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     To process transactions, detect and prevent fraudulent activities, and ensure the security of our services and users.
                   </p>
                 </div>
@@ -151,7 +151,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Legal Basis for Processing Your Information/Data</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Legal Basis for Processing Your Information/Data</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 If you use our services from the European Economic Area (EEA) or other jurisdictions, we may process your data under the following legal bases:
               </p>
@@ -164,32 +164,32 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Information/Data Sharing</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Information/Data Sharing</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 We do not sell, trade, or otherwise transfer your personally identifiable data without your prior notice and consent. We may share your data in the following scenarios:
               </p>
               <div className="space-y-4">
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Service Providers:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     With developers or partners who assist in operating and maintaining our services, provided they agree to keep shared data confidential.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">User Sharing Controls:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     Profiles, photos, and biographical data may be shared with other users within the app as necessary for matching and connecting purposes.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Legal Requests:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     In response to lawful requests from enforcement agencies, regulatory bodies, or to comply with applicable laws.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Safety Measures:</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                     To protect the rights, property, and safety of users, third parties, or Triple3JSolutions Inc. when actions are inconsistent with our Terms and Conditions.
                   </p>
                 </div>
@@ -197,7 +197,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Your Rights Under This Policy</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Your Rights Under This Policy</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 Depending on your location, you may have the following rights:
               </p>
@@ -210,7 +210,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">How We Secure Your Information/Data</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">How We Secure Your Information/Data</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 We implement the following measures to secure your data:
               </p>
@@ -222,21 +222,21 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Information/Data Retention</h2>
-              <p className="text-gray-300 leading-relaxed">
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Information/Data Retention</h2>
+              <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                 We retain your data as long as your account is active or as needed to provide services. Upon request, we will delete your data promptly unless required to retain it for legal purposes.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Changes to This Privacy Policy</h2>
-              <p className="text-gray-300 leading-relaxed">
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Changes to This Privacy Policy</h2>
+              <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                 We may update this policy to comply with new laws or changes in our practices. Updates will be communicated via email or app notifications.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Contact Us</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Contact Us</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 If you have questions or concerns about this Privacy Policy or our data practices, please contact us:
               </p>

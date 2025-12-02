@@ -28,7 +28,7 @@ export default function ChildProtectionPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">1. Age Restriction Policy</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">1. Age Restriction Policy</h2>
               <ul className="list-disc list-inside text-gray-300 space-y-3 ml-4">
                 <li>The Metal App is exclusively for individuals aged <strong className="text-white">18 and above</strong>.</li>
                 <li>During registration, users must select their date of birth to proceed. To uphold the age restriction policy, the system is designed only to display dates that confirm the user is <strong className="text-white">18 years or older</strong>. By selecting a date, users validate that they meet the age requirement.</li>
@@ -37,7 +37,7 @@ export default function ChildProtectionPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">2. Monitoring and Reporting</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">2. Monitoring and Reporting</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 We take a proactive approach to maintaining a safe community:
               </p>
@@ -49,7 +49,7 @@ export default function ChildProtectionPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">3. Content and Profile Moderation</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">3. Content and Profile Moderation</h2>
               <ul className="list-disc list-inside text-gray-300 space-y-3 ml-4">
                 <li>We manually review flagged profiles, bios, and messages to ensure they adhere to our guidelines.</li>
                 <li>Any content that suggests a user is underage or promotes child-related topics is strictly prohibited and will result in immediate action, including account suspension or removal.</li>
@@ -57,7 +57,7 @@ export default function ChildProtectionPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">4. Community Education</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">4. Community Education</h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 We encourage our users to prioritize safety by:
               </p>
@@ -67,7 +67,7 @@ export default function ChildProtectionPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">5. Enforcement Measures</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">5. Enforcement Measures</h2>
               <p className="text-gray-300 leading-relaxed">
                 To uphold the integrity of our platform, we enforce the following:
               </p>
@@ -77,7 +77,7 @@ export default function ChildProtectionPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">6. Transparency and Accountability</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">6. Transparency and Accountability</h2>
               <ul className="list-disc list-inside text-gray-300 space-y-3 ml-4">
                 <li>We are committed to regularly reviewing and improving our child protection measures to adapt to emerging risks and technologies.</li>
                 <li>If you have questions, or concerns, or wish to report an issue, please contact our <strong className="text-white">Safety Team</strong> at <a href="mailto:contact@themetalapp.com" className="text-primary hover:text-primary-light">contact@themetalapp.com</a></li>
@@ -85,7 +85,7 @@ export default function ChildProtectionPage() {
             </section>
 
             <section className="bg-primary/10 border-l-4 border-primary rounded-lg p-6">
-              <h2 className="text-2xl font-bold text-white mb-4">A Safer Community Together</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">A Safer Community Together</h2>
               <p className="text-gray-300 leading-relaxed">
                 Protecting our community from harm is a shared responsibility. By adhering to these standards and reporting any violations, you help us create a safe, supportive, and enjoyable environment for everyone.
               </p>

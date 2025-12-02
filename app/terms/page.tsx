@@ -28,14 +28,14 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-300 leading-relaxed">
                 By accessing or using the App, you agree to abide by these Terms and any future modifications. If you do not agree to these Terms, you must not use the App.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">2. Eligibility</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">2. Eligibility</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">2.1.</strong> You must be at least 18 years old to use the App.
@@ -47,7 +47,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">3. User Content</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">3. User Content</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">3.1.</strong> You are solely responsible for the content you upload, share, or otherwise make available on the App, including your profile information, photos, and messages.
@@ -59,7 +59,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">4. Appropriate Usage</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">4. Appropriate Usage</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">4.1.</strong> The App is intended for creating connections, friendships, mentoring, parenting, and romantic relationships.
@@ -71,14 +71,14 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">5. Privacy</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">5. Privacy</h2>
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-white">5.1.</strong> This Privacy Policy explains how METAL BLIND CONNECT collects, uses, shares, and protects your personal information. By using the App, you consent to the practices described in this Privacy Policy at the bottom of this page.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">6. Safety</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">6. Safety</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">6.1.</strong> While we strive to create a safe environment, we cannot guarantee the actions or intentions of other users. You are responsible for your interactions with other users both online and offline.
@@ -90,7 +90,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">7. Prohibited Activities</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">7. Prohibited Activities</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">7.1.</strong> You agree not to engage in any illegal, unauthorized, or harmful activities on the App.
@@ -102,14 +102,14 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">8. Termination</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">8. Termination</h2>
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-white">8.1.</strong> We reserve the right to suspend or terminate your access to the App if you violate these Terms or engage in any inappropriate behavior.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">9. Intellectual Property</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">9. Intellectual Property</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">9.1.</strong> The App and its content, including text, graphics, logos, and software, are solely owned by METAL BLIND CONNECT.
@@ -121,7 +121,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">10. Limitation of Liability</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">10. Limitation of Liability</h2>
               <div className="space-y-4">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">10.1.</strong> We are not responsible for the conduct of users on the App.
@@ -152,21 +152,21 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">11. Modifications to Terms</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">11. Modifications to Terms</h2>
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-white">11.1.</strong> We reserve the right to modify these Terms at any time. You will be notified of significant changes and continued use of the App after such changes constitute your acceptance of the modified Terms.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">12. Governing Law</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">12. Governing Law</h2>
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-white">12.1.</strong> These Terms are governed by the laws of Canada. Any disputes arising from these Terms shall be subject to the exclusive jurisdiction of the courts in Canada.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">13. Use of Face Data</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">13. Use of Face Data</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">13.1.</strong> If the App captures or processes Face Data (e.g., facial recognition or augmented reality features), we will notify you and obtain explicit consent prior to collection or use.
@@ -184,7 +184,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">14. Updates and Changes</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">14. Updates and Changes</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">14.1.</strong> We may update the App's features, services, or functionality at any time. Significant updates will be communicated to you through notifications or email.
@@ -196,7 +196,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">15. Third-Party Services</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">15. Third-Party Services</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">15.1.</strong> The App may include third-party services or SDKs to enhance functionality. By using the App, you agree to the terms of these third-party providers.
@@ -208,7 +208,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">16. Data Security</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">16. Data Security</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">16.1.</strong> We implement reasonable measures to protect your personal information. However, no transmission or storage method is entirely secure, and we cannot guarantee absolute security.
@@ -224,7 +224,7 @@ export default function TermsPage() {
             </div>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Information Collection</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Information Collection</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">1.1. Personal Information:</strong> We may collect personal information that you provide during registration, profile creation, and use of the App. This may include your name, email address, gender, date of birth, location, photos, and other relevant details.
@@ -236,7 +236,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Use of Information</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Use of Information</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">2.1.</strong> We use the collected information to provide, personalize, and improve our services, as well as to ensure a safe and engaging user experience.
@@ -251,7 +251,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Information Sharing</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Information Sharing</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">3.1.</strong> Your information may be shared with other users as necessary for the intended purpose of the App, such as connecting with potential friends, mentors, parents, or romantic partners.
@@ -269,7 +269,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Data Security</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Data Security</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">4.1.</strong> We implement reasonable security measures to protect your personal information from unauthorized access, disclosure, or destruction.
@@ -281,7 +281,7 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">User Choices</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">User Choices</h2>
               <div className="space-y-3">
                 <p className="text-gray-300 leading-relaxed">
                   <strong className="text-white">5.1.</strong> You can update or delete your profile information at any time through the App's settings.
@@ -293,21 +293,21 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Children's Privacy</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Children's Privacy</h2>
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-white">6.1.</strong> The App is intended for use by individuals who are at least 18 years old. We do not knowingly collect personal information from children under the age of 18.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Changes to Privacy Policy</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Changes to Privacy Policy</h2>
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-white">7.1.</strong> We may update this Privacy Policy as needed to reflect changes in our practices and services. We will notify you of significant changes and provide the updated policy on the App.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Contact Information</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Contact Information</h2>
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-white">8.1.</strong> If you have questions or concerns about this Privacy Policy, please contact us at <a href="mailto:contact@themetalapp.com" className="text-primary hover:text-primary-light">contact@themetalapp.com</a>.
               </p>
