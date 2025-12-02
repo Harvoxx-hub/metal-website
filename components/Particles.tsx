@@ -25,7 +25,7 @@ export default function Particles() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<Particle[]>([]);
   const clickEffectsRef = useRef<ClickEffect[]>([]);
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number | undefined>(undefined);
   const mouseRef = useRef({ x: 0, y: 0, active: false });
   const [isHovering, setIsHovering] = useState(false);
 

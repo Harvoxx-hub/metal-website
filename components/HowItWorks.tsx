@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import PhoneMockup from "./PhoneMockup";
 import ImageSnippet from "./ImageSnippet";
 
 const steps = [
@@ -88,12 +87,13 @@ export default function HowItWorks() {
                   </div>
                 </div>
 
-                {/* Phone Mockup */}
+                {/* Image */}
                 <div className="flex-1 flex justify-center">
-                  <PhoneMockup
-                    imageSrc={step.imageSrc}
-                    imageAlt={step.imageAlt}
+                  <ImageSnippet
+                    src={step.imageSrc}
+                    alt={step.imageAlt}
                     className="w-64 lg:w-80"
+                    rotation={index % 2 === 0 ? 3 : -3}
                   />
                 </div>
               </motion.div>
@@ -115,7 +115,6 @@ export default function HowItWorks() {
               alt="Metal App - Chat Snippet"
               className="w-full max-w-sm"
               rotation={3}
-              floating={true}
             />
           </div>
           <div className="flex justify-center">
@@ -124,8 +123,6 @@ export default function HowItWorks() {
               alt="Metal App - Un-Melt Snippet"
               className="w-full max-w-sm"
               rotation={-4}
-              floating={true}
-              delay={0.3}
             />
           </div>
         </motion.div>
