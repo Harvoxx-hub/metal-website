@@ -10,7 +10,7 @@ const testimonials = [
     metal: "gold",
   },
   {
-    quote: "The un-melt feature gave me so much control. I revealed myself only when I felt truly comfortable.",
+    quote: "The unmelt feature gave me so much control. I revealed myself only when I felt truly comfortable.",
     author: "Michael",
     age: 34,
     metal: "silver",

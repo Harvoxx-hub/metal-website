@@ -73,7 +73,7 @@ export default function BlindConnection() {
                   <span className="text-white text-xl">🔓</span>
                 </div>
                 <div>
-                  <h3 className="text-white font-semibold mb-1 text-lg">Un-Melt When Ready</h3>
+                  <h3 className="text-white font-semibold mb-1 text-lg">Unmelt When Ready</h3>
                   <p className="text-gray-300 text-sm sm:text-base">
                     Take complete control of your privacy. Reveal more about yourself—photos, real names, or personal info—only when you feel comfortable and there's a mutual connection.
                   </p>

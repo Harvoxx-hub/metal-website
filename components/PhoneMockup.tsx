@@ -102,11 +102,11 @@ export default function PhoneMockup({
               <div className="w-20 h-20 bg-primary-gradient rounded-full mx-auto mb-4 flex items-center justify-center">
                 <HiLightningBolt className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-white text-xl font-bold mb-2">Ready to Un-Melt?</h3>
+              <h3 className="text-white text-xl font-bold mb-2">Ready to Unmelt?</h3>
               <p className="text-gray-400 text-sm">Both parties must agree to reveal</p>
             </div>
             <button className="bg-primary-gradient text-white px-6 py-3 rounded-lg font-semibold w-full">
-              Un-Melt Now
+              Unmelt Now
             </button>
           </div>
         );

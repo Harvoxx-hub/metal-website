@@ -81,7 +81,7 @@ export default function Features() {
           ))}
         </div>
 
-        {/* Chat & Un-Melt Section */}
+        {/* Chat & Unmelt Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -108,7 +108,7 @@ export default function Features() {
 
           <div className="bg-dark-tertiary rounded-2xl p-5 sm:p-6 lg:p-8 border border-dark-border">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4">
-              Un-Melt When Ready
+              Unmelt When Ready
             </h3>
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
               Take control of your privacy. Reveal more about yourself only when you feel comfortable and there's a mutual connection.
@@ -116,7 +116,7 @@ export default function Features() {
             <div className="flex justify-center">
               <ImageSnippet
                 src="/images/screenshots/its-a-melt.png"
-                alt="Metal App - Un-Melt Feature"
+                alt="Metal App - Unmelt Feature"
                 className="w-full max-w-[200px] sm:max-w-xs"
                 rotation={-3}
               />

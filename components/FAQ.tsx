@@ -12,7 +12,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: "How is Metal different from other dating apps?",
-    answer: "Metal focuses on personality, values, and meaningful conversations rather than appearances. You choose a metal avatar instead of uploading photos, and you stay anonymous until both parties agree to 'un-melt' and reveal more about yourselves.",
+    answer: "Metal focuses on personality, values, and meaningful conversations rather than appearances. You choose a metal avatar instead of uploading photos, and you stay anonymous until both parties agree to 'unmelt' and reveal more about yourselves.",
   },
   {
     question: "What are Metal Communities?",
@@ -27,8 +27,8 @@ const faqs: FAQItem[] = [
     answer: "Sparks are points you earn by referring friends to Metal and engaging with the community. You can send sparks to people you want to connect with, or convert them to gift cards and currency. The more you engage, the more sparks you earn!",
   },
   {
-    question: "What does 'un-melt' mean?",
-    answer: "Un-melting is when both parties in a connection agree to reveal more about themselves — like photos, real names, or additional personal information. You have complete control over when (or whether) you un-melt.",
+    question: "What does 'unmelt' mean?",
+    answer: "Unmelting is when both parties in a connection agree to reveal more about themselves — like photos, real names, or additional personal information. You have complete control over when (or whether) you unmelt.",
   },
   {
     question: "Can I use Metal for friendships, not just dating?",
@@ -40,7 +40,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "Is my information private?",
-    answer: "Yes, privacy is at the core of Metal. Your photos and personal information remain hidden until you choose to un-melt with someone. We never share your data without your explicit consent.",
+    answer: "Yes, privacy is at the core of Metal. Your photos and personal information remain hidden until you choose to unmelt with someone. We never share your data without your explicit consent.",
   },
 ];
 

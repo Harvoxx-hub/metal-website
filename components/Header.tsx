@@ -51,10 +51,10 @@ export default function Header() {
               Why Metal
             </Link>
             <Link 
-              href="/meetup" 
+              href="/linkup" 
               className="text-gray-300 hover:text-white transition-colors text-sm lg:text-base font-medium"
             >
-              Meetup
+              Linkup
             </Link>
             <Link 
               href="#testimonials" 
@@ -100,11 +100,11 @@ export default function Header() {
               Why Metal
             </Link>
             <Link
-              href="/meetup"
+              href="/linkup"
               className="block text-gray-300 hover:text-white transition-colors text-base font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              Meetup
+              Linkup
             </Link>
             <Link
               href="#testimonials"

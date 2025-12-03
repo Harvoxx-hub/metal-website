@@ -17,7 +17,7 @@ export default function SupportPage() {
         },
         {
           q: "What is a metal avatar?",
-          a: "A metal avatar is how you're represented on Metal before you choose to 'un-melt'. You can choose from Gold, Silver, or Bronze. This allows you to connect anonymously while building relationships based on personality and values.",
+          a: "A metal avatar is how you're represented on Metal before you choose to 'unmelt'. You can choose from Gold, Silver, or Bronze. This allows you to connect anonymously while building relationships based on personality and values.",
         },
         {
           q: "How do I choose my connection preference?",
@@ -41,8 +41,8 @@ export default function SupportPage() {
           a: "In any chat, you'll see game options like 'Truth or Dare'. Tap the game icon to start playing interactive games that help break the ice and make conversations more engaging.",
         },
         {
-          q: "What does 'un-melt' mean?",
-          a: "Un-melting is when both parties in a connection agree to reveal more about themselves—like photos, real names, or additional personal information. You have complete control over when (or whether) you un-melt.",
+          q: "What does 'unmelt' mean?",
+          a: "Unmelting is when both parties in a connection agree to reveal more about themselves—like photos, real names, or additional personal information. You have complete control over when (or whether) you unmelt.",
         },
       ],
     },
@@ -51,7 +51,7 @@ export default function SupportPage() {
       questions: [
         {
           q: "Is my information private?",
-          a: "Yes, privacy is at the core of Metal. Your photos and personal information remain hidden until you choose to un-melt with someone. We never share your data without your explicit consent.",
+          a: "Yes, privacy is at the core of Metal. Your photos and personal information remain hidden until you choose to unmelt with someone. We never share your data without your explicit consent.",
         },
         {
           q: "How do I report inappropriate behavior?",

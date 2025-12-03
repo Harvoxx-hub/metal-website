@@ -82,7 +82,7 @@ export default function Comparison() {
                 Every Connection = Real Connection.
               </h3>
               <p className="text-gray-300 text-base sm:text-lg">
-                Connect. Chat. Un-melt. Build relationships based on who you are — not how you look.
+                Connect. Chat. Unmelt. Build relationships based on who you are — not how you look.
               </p>
             </div>
           </motion.div>

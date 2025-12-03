@@ -23,8 +23,8 @@ const steps = [
     imageAlt: "Metal App - Thoughts",
   },
   {
-    title: "Earn Sparks & Un-Melt When Ready",
-    description: "Earn spark points by referring friends and engaging with the community. Send sparks to people you want to connect with, or convert them to gift cards. When you're comfortable, un-melt and reveal more about yourself.",
+    title: "Earn Sparks & Unmelt When Ready",
+    description: "Earn spark points by referring friends and engaging with the community. Send sparks to people you want to connect with, or convert them to gift cards. When you're comfortable, unmelt and reveal more about yourself.",
     imageSrc: "/images/screenshots/metal-sparks-page.png",
     imageAlt: "Metal App - Sparks",
   },
@@ -101,7 +101,7 @@ export default function HowItWorks() {
           </div>
         </div>
 
-        {/* Chat & Un-Melt Snippets at the bottom */}
+        {/* Chat & Unmelt Snippets at the bottom */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -120,7 +120,7 @@ export default function HowItWorks() {
           <div className="flex justify-center">
             <ImageSnippet
               src="/images/screenshots/its-a-melt.png"
-              alt="Metal App - Un-Melt Snippet"
+              alt="Metal App - Unmelt Snippet"
               className="w-full max-w-sm"
               rotation={-4}
             />

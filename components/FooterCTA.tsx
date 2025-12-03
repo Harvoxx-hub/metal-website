@@ -51,11 +51,11 @@ export default function FooterCTA() {
               />
             </div>
 
-            {/* Un-Melt Snippet - Bottom */}
+            {/* Unmelt Snippet - Bottom */}
             <div className="absolute bottom-10 left-10 z-20 w-52 sm:w-60 lg:w-68">
               <ImageSnippet
                 src="/images/screenshots/its-a-melt.png"
-                alt="Metal App - Un-Melt"
+                alt="Metal App - Unmelt"
                 rotation={-6}
               />
             </div>

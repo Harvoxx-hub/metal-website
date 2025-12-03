@@ -48,7 +48,7 @@ export default function Home() {
       "Choose Your Connection Type",
       "Earn & Send Sparks",
       "Blind Connections",
-      "Un-Melt When Ready"
+      "Unmelt When Ready"
     ],
     "publisher": {
       "@type": "Organization",

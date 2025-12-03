@@ -10,7 +10,7 @@ export default function SafetyPage() {
   const safetyTips = [
     {
       title: "Stay Anonymous Until Ready",
-      description: "Use your metal avatar and stay anonymous until you feel comfortable. Only un-melt when both parties agree and you're ready to share more.",
+      description: "Use your metal avatar and stay anonymous until you feel comfortable. Only unmelt when both parties agree and you're ready to share more.",
       icon: "🔒",
     },
     {
@@ -46,7 +46,7 @@ export default function SafetyPage() {
       description: "Connect without photos, focusing on personality and values first.",
     },
     {
-      title: "Un-Melt Control",
+      title: "Unmelt Control",
       description: "You decide when to reveal more about yourself. Both parties must agree.",
     },
     {
