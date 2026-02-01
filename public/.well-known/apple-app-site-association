@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "372TJ9DS88.com.bwh.metal",
+        "paths": [
+          "/thought/*",
+          "/user/*",
+          "/community/*",
+          "/meetup/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "372TJ9DS88.com.bwh.metal"
+    ]
+  }
+}
