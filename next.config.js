@@ -12,6 +12,12 @@ const nextConfig = {
           { key: 'Content-Type', value: 'application/json' },
         ],
       },
+      {
+        source: '/.well-known/assetlinks.json',
+        headers: [
+          { key: 'Content-Type', value: 'application/json' },
+        ],
+      },
     ]
   },
 }
