@@ -1,8 +1,51 @@
 # Fix "Domain non-redirect failed" in Play Console
 
-Google's App Links verifier **does not follow redirects**. When it requests `https://yourdomain/.well-known/assetlinks.json`, it must get a **direct HTTP 200** response. If it gets 301 or 302, you see "Domain non-redirect failed".
+Google's App Links verifier **does not follow redirects**. When it requests `https://yourdomain/.well-known/assetlinks.json`, it must get a **direct HTTP 200** response. If it gets 301 or 302 (or 307), you see "Domain non-redirect failed".
 
-## 1. Find which domain returns 200
+## What’s happening on themetalapp.com
+
+- **https://themetalapp.com/.well-known/assetlinks.json** → returns **307 redirect** to www (Google fails here).
+- **https://www.themetalapp.com/.well-known/assetlinks.json** → returns **200 OK**.
+
+So Vercel is redirecting the apex domain (themetalapp.com) to www. Play Console is using **themetalapp.com**, so the verifier gets a redirect and fails.
+
+---
+
+## Fix: choose one
+
+### Option A – Make apex return 200 (recommended, no app change)
+
+**In Vercel:** stop redirecting themetalapp.com to www so the apex domain serves the site directly.
+
+1. Vercel Dashboard → your **metal-website** project → **Settings** → **Domains**.
+2. Find **themetalapp.com** (apex). If it’s set to **“Redirect to www.themetalapp.com”** (or similar), change it so that **themetalapp.com** **serves** the project (no redirect).
+   - Usually: remove the redirect, or set themetalapp.com as the **primary** domain that serves the project.
+   - You can keep **www.themetalapp.com** as an alias that also serves the same project (both return 200), or have www redirect to apex—either is fine.
+3. After saving, wait a minute and test:
+   ```bash
+   curl -I https://themetalapp.com/.well-known/assetlinks.json
+   ```
+   You should see **200** (not 307/301/302).
+4. In Play Console, leave the website domain as **themetalapp.com** and click **Recheck verification**.
+
+No app or code changes needed; shared links stay as `https://themetalapp.com/...`.
+
+---
+
+### Option B – Use www in Play Console and in the app
+
+If you want to keep redirecting apex → www (e.g. www as canonical):
+
+1. In **Play Console** → App links → website domain: use **www.themetalapp.com** (not themetalapp.com).
+2. Update the **Flutter app** so all deep links use **www.themetalapp.com**:
+   - `deep_link_service.dart`: all share URLs use `https://www.themetalapp.com/...`
+   - `AndroidManifest.xml`: `android:host="www.themetalapp.com"`
+   - `Info.plist`: `applinks:www.themetalapp.com`
+3. Release a new app version, then recheck verification in Play Console.
+
+---
+
+## 1. Find which domain returns 200 (if you’re unsure)
 
 Run (replace with your domain):
 
