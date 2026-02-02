@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import MeetupContent from "./LinkupContent";
+import MeetupContent from "./MeetupContent";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

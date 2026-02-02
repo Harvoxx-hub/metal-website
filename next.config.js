@@ -4,6 +4,11 @@ const nextConfig = {
     domains: [],
     unoptimized: false,
   },
+  async redirects() {
+    return [
+      { source: '/linkup', destination: '/meetup', permanent: true },
+    ]
+  },
   async headers() {
     return [
       {
